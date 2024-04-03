@@ -1,0 +1,221 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+}
+
+/* inicia header */
+header{
+    background-color:yellowgreen; 
+    height: 70px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.menu{
+    float: right;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0px 5px 0px 5px;
+}
+
+.menu a:hover{
+    color: rgb(90, 16, 16);
+    transition: 1s;
+}
+
+.logo{
+    float: left;
+    font-weight: bold;
+} 
+
+.logo{
+    color: whitesmoke;
+}
+
+span{
+    color: rgb(90, 16, 16);
+}
+/* fin header */
+
+h1{
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+/* inicio footer */
+p{
+    font-size: 20px;
+    color: beige;
+}
+
+footer{
+    background-color: yellowgreen;
+    background-size: 70px;
+    color: whitesmoke;
+    text-align: center;
+    height: 80px;
+    position: fixed bottom;
+    }
+
+footer{
+    margin-bottom: 0px;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 0 0 7px whitesmoke;
+    border-radius: 50%;
+    margin-top: 7px;
+}
+
+footer a{
+    color: whitesmoke;
+}
+footer a :hover{
+    color: rgb(90, 16, 16);
+    text-decoration: none ;
+}
+/* fin footer */
+
+/* inicio main */
+h1{
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+main{
+    text-align: center;
+    height: 100%;
+    width: auto;
+    padding: 0px 40px 0px 40px;
+}
+
+main div{
+    background-color: rgba(73, 50, 30, 0.678) ;
+    }
+
+nav{
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+/* fin main  */
+
+
+body{
+    background-color: rgba(73, 50, 30, 0.678) ;
+    
+    }
+
+body ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+.descripcion{
+    height: 100%;
+    width: auto;
+    margin: 0px 50px 10px 50px;
+}
+    
+h3{
+    font-size: 30px;
+    color: yellowgreen;
+}
+
+ol{
+    height: 100%;
+    width: auto;
+    text-align: left;
+    margin: 10px 40px 10px 40px;
+}
+
+html{
+    scroll-behavior: smooth;
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/CAFE\ DEFINITIVO.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjetas{
+    text-align: center;
+    color:  rgb(90, 16, 16);
+}
+
+.carrusel{
+    height: auto;
+    width: 50%;
+    margin: 20px 40px 0px 335px;
+}
+
+.card-text{
+    color:  rgb(90, 16, 16);
+}
+
+h6{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+.productos{
+    display: grid;
+    grid-template-rows: 500px 500px 500px;
+    grid-template-columns: 3fr 3fr 3fr;
+    height: 100%;
+    width: auto;
+    margin: 10px 40px 10px 100px;
+}
+
+.formulario{
+    text-align: left;
+    margin: 10px 100px 10px 100px;
+    height: 400px;
+    width: auto;
+    padding: 50px;
+}
+
+.col{
+    padding-bottom: 10px;
+}
+
+.sucursales{
+    height: 100vh;
+    width: auto;
+    display: inline-block;
+    margin: 20px 100px 20px 100px;
+    align-content: center;
+    text-align: right;
+}
+
+iframe{
+    height: 33%;
+    width: auto;
+}
+
+h5{
+    height: auto;
+    width: 40%;
+    text-align: left;
+    margin-left: 100px;
+    background-color: yellowgreen;
+    font-size: 20px;
+}
+
+section{
+    justify-content: space-between;
+}
