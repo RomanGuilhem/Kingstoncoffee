@@ -163,10 +163,11 @@
     .carrusel{
         height: auto;
         width: 50%;
-        margin: 20px 40px 0px 335px;
         align-items: center;
         justify-content: center;
         object-fit: cover;
+        position: fixed;
+        display: flex;
     }
     
     .card-text{
