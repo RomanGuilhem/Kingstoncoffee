@@ -166,8 +166,8 @@
         align-items: center;
         justify-content: center;
         object-fit: cover;
-        position: fixed;
-        display: flex;
+        position: static;
+        display: inline-block;
     }
     
     .card-text{
@@ -187,12 +187,12 @@
         height: 100%;
         width: auto;
         margin: 10px 40px 10px 100px;
-    }
+        align-items: center;
+    }        
     
     .formulario{
         text-align: left;
-        margin: 10px 100px 10px 100px;
-        height: 400px;
+        height: 100%;
         width: auto;
         padding: 50px;
     }
