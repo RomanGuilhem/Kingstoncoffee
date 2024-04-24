@@ -163,8 +163,7 @@ html {
   width: 50%;
   align-items: center;
   justify-content: center;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: static;
   display: inline-block;
 }
@@ -179,16 +178,23 @@ h6 {
   font-size: 50px;
 }
 
-.productos {
-  display: grid;
-  grid-template-rows: 500px 500px 500px;
-  grid-template-columns: 3fr 3fr 3fr;
-  height: 100%;
-  width: auto;
-  margin: 10px 40px 10px 100px;
-  align-items: center;
+@media only screen and (min-width: 320px) {
+  .productos {
+    grid-template-rows: repeat(1, 500px);
+    grid-template-columns: repeat 9, 1fr;
+  }
 }
-
+@media only screen and (min-width: 1000px) {
+  .productos {
+    display: grid;
+    grid-template-rows: 500px 500px 500px;
+    grid-template-columns: 3fr 3fr 3fr;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
 .formulario {
   text-align: left;
   height: 100%;
