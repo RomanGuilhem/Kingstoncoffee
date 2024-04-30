@@ -123,7 +123,7 @@ nav {
 
 body {
     background-color: rgba(73, 50, 30, 0.678);
-
+    text-align: center;
 }
 
 body ul li {
@@ -214,12 +214,13 @@ h6 {
 }
 
 .sucursales {
-    height: 100vh;
+    height: 100%;
     width: auto;
     display: inline-block;
-    margin: 20px 100px 20px 100px;
     align-content: center;
-    text-align: right;
+    text-align: center;
+    position: static;
+    align-items: center;
 }
 
 iframe {
